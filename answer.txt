@@ -1,4 +1,22 @@
 •What is a gitignore file and what should it include for a Java project?
+
+Ans: A gitignore file tells git what files to ignore when staging/tracking. 
+
+For Java Project:
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
 •What does fast-forward in Git mean?
+Ans: To fast-forward a branch means to move the branch pointer a couple of commits forward/ahead.
+
 •Why should you have different branches?
+Ans: Branching/ using different branches allows developers to isolate their work from other developers so that they can work on particular/separate features and not be interrupted by other developer's work.
+It also helps in 
+
 •In a project how many remote Git repositories do you usually have?
+Ans: There can be multiple remote repositories but each branch can only track one remote branch.
